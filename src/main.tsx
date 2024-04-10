@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import "/app/globals.css";
 import { ThemeProvider } from "./providers/ThemeProvider.tsx";
+import "/app/globals.css";
 
 let dom = document.createElement("div");
 dom.id = "chat-spirit";
