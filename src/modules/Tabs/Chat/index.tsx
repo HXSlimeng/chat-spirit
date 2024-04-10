@@ -7,7 +7,7 @@ export default function Chat() {
         <Interlocution />
       </div>
       <div className="w-full">
-        <Inputer />
+        <Inputer disabled={false} />
       </div>
     </div>
   );
